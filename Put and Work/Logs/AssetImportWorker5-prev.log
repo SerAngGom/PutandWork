@@ -1,0 +1,266 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.37f1 (090b7797214c) revision 592759'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32175 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50050
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
+C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2364]  Target information:
+
+Player connection [2364]  * "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 397982749 [EditorId] 397982749 [Version] 1048832 [Id] WindowsEditor(7,SAG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2364] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2364] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.37f1 (090b7797214c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002776 seconds.
+- Loaded All Assemblies, in  0.436 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 854ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (160ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.994 seconds
+Refreshing native plugins compatible for Editor in 6.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.082 seconds
+Domain Reload Profiling: 2070ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (662ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (223ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1082ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (880ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (257ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7025 unused Assets / (9.4 MB). Loaded Objects now: 7648.
+Memory consumption went from 174.8 MB to 165.5 MB.
+Total: 35.139600 ms (FindLiveObjects: 2.870000 ms CreateObjectMapping: 2.606200 ms MarkObjects: 21.488400 ms  DeleteObjects: 8.172300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1825.259171 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_AlbedoTransparency 2.mat
+  artifactKey: Guid(20d6ef90117125e4b9dc6b98751e901f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_AlbedoTransparency 2.mat using Guid(20d6ef90117125e4b9dc6b98751e901f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5421f0484ec754b9bc8e78680f82acd3') in 0.3132711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Dispel.prefab
+  artifactKey: Guid(c833dcb153baf4725a34c8a07efc9631) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Dispel.prefab using Guid(c833dcb153baf4725a34c8a07efc9631) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7721351ca082cd22bb3c990d4e49361') in 0.1567908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion B_Explode.controller
+  artifactKey: Guid(fdbeb44b963ec40d9a8f0c23583c3f17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion B_Explode.controller using Guid(fdbeb44b963ec40d9a8f0c23583c3f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8346ad5d695f85072603e74dccd5ea9c') in 0.0166135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION D_2D Detail_Cracked.png
+  artifactKey: Guid(3f96b7498445d41b198c0d7680c753bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION D_2D Detail_Cracked.png using Guid(3f96b7498445d41b198c0d7680c753bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae9541bb4802d87086a12d391045eafb') in 0.0594677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION E_2D Bottle Fill.png
+  artifactKey: Guid(9f7faed159a86499798efa1cc48bf93f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION E_2D Bottle Fill.png using Guid(9f7faed159a86499798efa1cc48bf93f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd3dae94cf10583112e30374beeb8a9f') in 0.0259403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Exploded/GPVFX_Potion B_Exploded.fbx
+  artifactKey: Guid(6e821627f600647b5b96efa822247e1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Exploded/GPVFX_Potion B_Exploded.fbx using Guid(6e821627f600647b5b96efa822247e1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec6f7cb680d8f5458f72f53920bdd072') in 0.0537124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D PREFABS/POTION A.prefab
+  artifactKey: Guid(52989ede6653243e3ad7042d055e9766) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D PREFABS/POTION A.prefab using Guid(52989ede6653243e3ad7042d055e9766) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd6e6893cd0aa3a673b41745a4d0e682') in 0.0257395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION A_2D Bottle.png
+  artifactKey: Guid(3829c13dada4640fea96ae4e1f5bcb68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION A_2D Bottle.png using Guid(3829c13dada4640fea96ae4e1f5bcb68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ae10e212245d532a230c018cb7f2d86') in 0.0220888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_AlbedoTransparency.mat
+  artifactKey: Guid(8a4f1e6fad293c247ae2570d8f76d28a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_AlbedoTransparency.mat using Guid(8a4f1e6fad293c247ae2570d8f76d28a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90148299219b5bd8e494c405dc56c9e9') in 0.0288413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Erik Assets/Barrel/Demo/Textures/stone_tile_texture.png
+  artifactKey: Guid(b6ccb75e36dcf6b4396c44d0acb59672) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Barrel/Demo/Textures/stone_tile_texture.png using Guid(b6ccb75e36dcf6b4396c44d0acb59672) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ad624df1d9290fd941f1f108328571b') in 0.0244222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

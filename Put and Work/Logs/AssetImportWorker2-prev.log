@@ -1,0 +1,1022 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.37f1 (090b7797214c) revision 592759'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 32175 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50050
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
+C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16368]  Target information:
+
+Player connection [16368]  * "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 3376577330 [EditorId] 3376577330 [Version] 1048832 [Id] WindowsEditor(7,SAG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16368] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16368] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.37f1 (090b7797214c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003228 seconds.
+- Loaded All Assemblies, in  0.418 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.397 seconds
+Domain Reload Profiling: 813ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1630ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (549ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (67ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 9.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7025 unused Assets / (9.4 MB). Loaded Objects now: 7648.
+Memory consumption went from 174.8 MB to 165.5 MB.
+Total: 26.651500 ms (FindLiveObjects: 1.279900 ms CreateObjectMapping: 1.786000 ms MarkObjects: 17.364800 ms  DeleteObjects: 6.218800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 556.890811 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkBlack.png
+  artifactKey: Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkBlack.png using Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed26e7989158672108ae8b35ef65686b') in 0.0923365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic Particle Burst.png
+  artifactKey: Guid(33dcb29d6fedf4a3788bf33ee6b252d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic Particle Burst.png using Guid(33dcb29d6fedf4a3788bf33ee6b252d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '932d8774f684754652063b9078b25253') in 0.0705184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.967276 seconds.
+  path: Assets/Erik Assets/Balloon
+  artifactKey: Guid(7c87223ce3a887045a7f7b3d7ade6acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/Balloon using Guid(7c87223ce3a887045a7f7b3d7ade6acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95fc59c0f91549482e4dc932061eeb69') in 0.0006722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.346262 seconds.
+  path: Assets/Erik Assets/Balloon/Model
+  artifactKey: Guid(aeac07aed3bf89d469724bac383d51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/Balloon/Model using Guid(aeac07aed3bf89d469724bac383d51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '887b3eda5b11b82a0ceb5d7995d4dc13') in 0.0006905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.339905 seconds.
+  path: Assets/Erik Assets/Balloon/Prefab
+  artifactKey: Guid(67dbef1cfee883a4088e45bf12d32e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/Balloon/Prefab using Guid(67dbef1cfee883a4088e45bf12d32e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdd9e212bf329a84d25871b32ea417bc') in 0.0007166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037918 seconds.
+  path: Assets/Erik Assets/Balloon/Prefab/Balloon_Blue.prefab
+  artifactKey: Guid(802d434833507f14fab8448deab02da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/Balloon/Prefab/Balloon_Blue.prefab using Guid(802d434833507f14fab8448deab02da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2b34e0a2a6c9b9b9f3a06dd3a5b3c81') in 0.487534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.333541 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10528149371aefc32227726816d72a59') in 0.0010351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005510 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70a145e7ae3fa6551c92c93129745ba9') in 0.0009858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.650986 seconds.
+  path: Assets/Erik Assets/Garbage Heap
+  artifactKey: Guid(3d7dcc8f909a2164a89c1cf6b09a53f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/Garbage Heap using Guid(3d7dcc8f909a2164a89c1cf6b09a53f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a12d0a72a8612a37a811bf8e3843445') in 0.000732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.823140 seconds.
+  path: Assets/Erik Assets/Garbage Heap/Materials
+  artifactKey: Guid(15436cd6258ef454ba433de1f7cbcbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/Garbage Heap/Materials using Guid(15436cd6258ef454ba433de1f7cbcbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e61900180245b959229f31b6fb3cfa1') in 0.0005597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009894 seconds.
+  path: Assets/Erik Assets/Garbage Heap/Materials/Plane0145_diffuse.mat
+  artifactKey: Guid(99414425e0cff804e9727d00807e8bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erik Assets/Garbage Heap/Materials/Plane0145_diffuse.mat using Guid(99414425e0cff804e9727d00807e8bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a84f855b53559473d52fe01a0f8289e5') in 0.0768502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1145.908809 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6da37533b9779ac28efedf1e8751dbb5') in 0.4085735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Erik Assets/Balloon/Scene/Scene_Blue_Balloon.unity
+  artifactKey: Guid(822a41bd91320c648a68d7b742c85b70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Scene/Scene_Blue_Balloon.unity using Guid(822a41bd91320c648a68d7b742c85b70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '013290d13db071e21427318b108f5bdc') in 0.0165477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Erik Assets/Protection_suite/Textures/T_Protective suit_Normal.tga
+  artifactKey: Guid(cb718e633d9298f40911ba1bde634244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Protection_suite/Textures/T_Protective suit_Normal.tga using Guid(cb718e633d9298f40911ba1bde634244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db2c01002d678fc6bef4abb653667432') in 0.0585733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/Barrel/Textures/barrel_albedo.png
+  artifactKey: Guid(084b64d9d47e70b4bb390a222c8090e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Barrel/Textures/barrel_albedo.png using Guid(084b64d9d47e70b4bb390a222c8090e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '009515e97b7d57c10ab7d7f4f7969e9a') in 0.0253397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion E_Explode.controller
+  artifactKey: Guid(cef3495f4905344b4bdb029eadeed327) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion E_Explode.controller using Guid(cef3495f4905344b4bdb029eadeed327) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2513fdc198b05e3b5223a4909432fe5c') in 0.0207493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4627351c281c5658877e9ae6645a7d73') in 0.0483792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Erik Assets/Balloon/Materials/balloon_1_blue.mat
+  artifactKey: Guid(85664c96f4c6142478f98a6bcf277523) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Materials/balloon_1_blue.mat using Guid(85664c96f4c6142478f98a6bcf277523) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04835e2097c8128853aeca071707b8b1') in 0.0250075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Sky_Protective_suit.unity
+  artifactKey: Guid(ea1a9e90ec04d5b4b9ee00fba0cd0804) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Sky_Protective_suit.unity using Guid(ea1a9e90ec04d5b4b9ee00fba0cd0804) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebfa34f2fa700de2c43920d6d66604b1') in 0.015842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Sky_Protective_suitSettings.lighting
+  artifactKey: Guid(2942e18a8970c1f4c815c2c68fcdda31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Sky_Protective_suitSettings.lighting using Guid(2942e18a8970c1f4c815c2c68fcdda31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2994cf9bd2b2d3119e16c21855bb44c') in 0.0216861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Erik Assets/Balloon/Scene/Scene/LightingData.asset
+  artifactKey: Guid(994baea8d5bbd35499065598e3710f6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Scene/Scene/LightingData.asset using Guid(994baea8d5bbd35499065598e3710f6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66dc7de59006b2e02cebe52708b16539') in 0.0175429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/Protection_suite/Materials/Mat_Scen.mat
+  artifactKey: Guid(0853a53bb0ed5b74fbce4f70f422d83e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Protection_suite/Materials/Mat_Scen.mat using Guid(0853a53bb0ed5b74fbce4f70f422d83e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0279236ce22dc4fe05e574007daf3df7') in 0.0173602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION A.controller
+  artifactKey: Guid(1b198297e08bd4b379e55fe4e0a14b44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION A.controller using Guid(1b198297e08bd4b379e55fe4e0a14b44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdb9bb3a15a8c47b1aef3c6ca1b6a7f9') in 0.0161977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/3D PREFABS/GPVFX_POTION A.prefab
+  artifactKey: Guid(d027d4bce170c4abf8619a7d7980440e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/3D PREFABS/GPVFX_POTION A.prefab using Guid(d027d4bce170c4abf8619a7d7980440e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '589c953f58624bac72ab30718a30a55c') in 0.0284886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/3D PREFABS/GPVFX_POTION B.prefab
+  artifactKey: Guid(e53cd9b7f6ac44f3ebe9af3f0f302b4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/3D PREFABS/GPVFX_POTION B.prefab using Guid(e53cd9b7f6ac44f3ebe9af3f0f302b4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d5794b5c2a1681aca3123a3ca31ead8') in 0.0199715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd173a15c0404ff88bbd76642ce688aec') in 0.0176716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/TEMP/GPVFX_Potions DEMO.anim
+  artifactKey: Guid(4801094c5a6324ae8ba3a4007e0a6de7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/TEMP/GPVFX_Potions DEMO.anim using Guid(4801094c5a6324ae8ba3a4007e0a6de7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6441006a4c7ade4f56923f1b3d7b1ec8') in 0.0378185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_MetallicSmoothness.mat
+  artifactKey: Guid(2fc065883dacba54280d3e74ba7c567d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_MetallicSmoothness.mat using Guid(2fc065883dacba54280d3e74ba7c567d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '760d9c97ffdb25cf4a5649a0a8d4122e') in 0.0363466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/Prueba.unity
+  artifactKey: Guid(8bce656964b2b524ba01ff3ee2a57389) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Prueba.unity using Guid(8bce656964b2b524ba01ff3ee2a57389) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '064f7d5ef30d64a16629e3b80536255c') in 0.0182055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Materials/Standard(2sides).shader
+  artifactKey: Guid(f8a897743878329488bcbeaeb64a1d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Materials/Standard(2sides).shader using Guid(f8a897743878329488bcbeaeb64a1d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a9a9c5fdc800fdf5face893c7c671bb') in 0.0243615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/GPVFX_Potion B_FX.controller
+  artifactKey: Guid(ad73680e1504e4cb2b50c7a2c3c7472f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/GPVFX_Potion B_FX.controller using Guid(ad73680e1504e4cb2b50c7a2c3c7472f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '425a98ee9b6a21f3d38a0a449e1bb2de') in 0.0171706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Erik Assets/Balloon/Texture/Balloon/balloon_1_DefaultMaterial_AlbedoTransparency_B.png
+  artifactKey: Guid(27b849db60d65e24384ccaa923cc9824) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Texture/Balloon/balloon_1_DefaultMaterial_AlbedoTransparency_B.png using Guid(27b849db60d65e24384ccaa923cc9824) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a98817ed4ddaa2c85aacc8dd9b574a5c') in 0.021395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS 3D_Materials/3d Potion E_Fill.mat
+  artifactKey: Guid(a8c9b52c691f448b59ae3b6653ad82d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS 3D_Materials/3d Potion E_Fill.mat using Guid(a8c9b52c691f448b59ae3b6653ad82d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac51c6088bcae921589e46cc11f82283') in 0.0411807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS 3D_Materials/Corks.mat
+  artifactKey: Guid(889555b0db7a64beab5ddb92360b470d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS 3D_Materials/Corks.mat using Guid(889555b0db7a64beab5ddb92360b470d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '121a4873e584ba92175a56d02c280149') in 0.0184716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Exploded/GPVFX_Potion E_Exploded.fbx
+  artifactKey: Guid(5ff0fff942c33475288a07e66574a1d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Exploded/GPVFX_Potion E_Exploded.fbx using Guid(5ff0fff942c33475288a07e66574a1d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51a51638abb5c115506c91e657d8e12f') in 0.0572601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/Garbage Heap/Prefab/Mus_1.prefab
+  artifactKey: Guid(23a060e1bf9158541a31375c6cfe52db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Garbage Heap/Prefab/Mus_1.prefab using Guid(23a060e1bf9158541a31375c6cfe52db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5a4a1fbca6c661a7f059b2ed8303e63') in 0.0232318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/Garbage Heap/Materials/Plane0145_diffuse.mat
+  artifactKey: Guid(99414425e0cff804e9727d00807e8bea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Garbage Heap/Materials/Plane0145_diffuse.mat using Guid(99414425e0cff804e9727d00807e8bea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9fe131065338c873a1c929e4831463a') in 0.0179559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_MetallicSmoothness 1.mat
+  artifactKey: Guid(f2ad110a4a2a8b047a6252c6c81ed9e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_MetallicSmoothness 1.mat using Guid(f2ad110a4a2a8b047a6252c6c81ed9e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f6c18e28bf0edb34059c9711ddcbb64') in 0.0341833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Erik Assets/Protection_suite/Protection_suite.unity
+  artifactKey: Guid(bff718df3ed1a274d929a1e1dfe3edc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Protection_suite/Protection_suite.unity using Guid(bff718df3ed1a274d929a1e1dfe3edc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53267ab8c8f144d5a6c629b85f3d4187') in 0.0176474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION E.controller
+  artifactKey: Guid(d9c06f2adb7d54e4f93b3528f2533cfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION E.controller using Guid(d9c06f2adb7d54e4f93b3528f2533cfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3db8ed1d4549c1331dc9e530410f445a') in 0.0159269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Erik Assets/Balloon/Scene/Scene/ReflectionProbe-0.exr
+  artifactKey: Guid(dc609e78965c2b9498ff48b5717f5832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Scene/Scene/ReflectionProbe-0.exr using Guid(dc609e78965c2b9498ff48b5717f5832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3eda70367f00bad225018114f2f09ea0') in 0.0274467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_Glass Shards.prefab
+  artifactKey: Guid(7b6c025df1b6346e8bf6938ed2e4c30b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_Glass Shards.prefab using Guid(7b6c025df1b6346e8bf6938ed2e4c30b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5303685b23230d713b3265413ba90240') in 0.0934274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/Potions_Entangle.mat
+  artifactKey: Guid(133fb033d9e404e22a1ed2068c9c121a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/Potions_Entangle.mat using Guid(133fb033d9e404e22a1ed2068c9c121a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '081c4c17be019d658d03d1628fb99f88') in 0.0191361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Interrupt.mat
+  artifactKey: Guid(6eb68563a3b134263bb5de66a48ac643) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Interrupt.mat using Guid(6eb68563a3b134263bb5de66a48ac643) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3733665546c70811b52d115dc7840304') in 0.0222199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/Sparkle.mat
+  artifactKey: Guid(eee2550fc3c304470b9ec1fab9dbdc98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/Sparkle.mat using Guid(eee2550fc3c304470b9ec1fab9dbdc98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c8f875e90dc8a4e84b486ba16994827') in 0.0287568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b4231bf301bffddd13fd8934e83c52a') in 0.0161344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/Magic Burst Sparks.mat
+  artifactKey: Guid(744f28aa9cf7145e39ac64e152a80814) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/Magic Burst Sparks.mat using Guid(744f28aa9cf7145e39ac64e152a80814) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4cbddb56031ae0e2a47c3b46604a58a') in 0.0174939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18d7e0c74ac9714f818e2708b6e205c6') in 0.0482913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '474fe4ae57f420a67727bd942e11a7f1') in 0.0219492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/DISPEL.png
+  artifactKey: Guid(eb3bc93c000e047278105dc2af4f2fea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/DISPEL.png using Guid(eb3bc93c000e047278105dc2af4f2fea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd957cb00851acc52ea35b6cae2b2b968') in 0.0312913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/GPVFX_Magic_Dispel.png
+  artifactKey: Guid(69788fa245d3f4fdb8e2e28d83f502d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/GPVFX_Magic_Dispel.png using Guid(69788fa245d3f4fdb8e2e28d83f502d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37e602279f85be95791ceee5e053cfa9') in 0.022981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Meshes/Potion Automaton.fbx
+  artifactKey: Guid(c7f9c14e1c39c4a1c89b4a2a0fea2b69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Meshes/Potion Automaton.fbx using Guid(c7f9c14e1c39c4a1c89b4a2a0fea2b69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c8935699e511eba9d03363f42d6e501') in 0.0270862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic Particle Burst.png
+  artifactKey: Guid(33dcb29d6fedf4a3788bf33ee6b252d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic Particle Burst.png using Guid(33dcb29d6fedf4a3788bf33ee6b252d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8c3bb902892b0c9dd0141227dd40f0a') in 0.023077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Textures/cork 1.png
+  artifactKey: Guid(e6f1e0c58a61d451c94e55fae592b789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Textures/cork 1.png using Guid(e6f1e0c58a61d451c94e55fae592b789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b171a2fcae5323b72cd99b57837d87b') in 0.0222817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Erik Assets/Balloon/Scene/Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0a303cd75b4513344aa7dfefc2012b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Scene/Scene/Lightmap-0_comp_light.exr using Guid(0a303cd75b4513344aa7dfefc2012b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '568d14b5905e4841252dc6495086c5da') in 0.0225171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Dispel Burst.mat
+  artifactKey: Guid(2acfe1077df4440ad9e880814460e0f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Dispel Burst.mat using Guid(2acfe1077df4440ad9e880814460e0f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42bff67c6a5f886e83c02b8cda131e0f') in 0.0157055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26a333c5453b21d9489ed4077766a1a4') in 0.0534802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION C_2D Bottle.png
+  artifactKey: Guid(fd6d07bf446134f37aee2e7f79e709db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION C_2D Bottle.png using Guid(fd6d07bf446134f37aee2e7f79e709db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa24d4e63c2663dd540473d7e30fd1a1') in 0.0214901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION B_2D Detail_Cracked.png
+  artifactKey: Guid(d61333285c2f142799efe73351bda8f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION B_2D Detail_Cracked.png using Guid(d61333285c2f142799efe73351bda8f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '644582a8ed4b4f9cd5c965d63e79bd0d') in 0.0230281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/Protection_suite/Stend/Materials/No Name.mat
+  artifactKey: Guid(a3e41b37dd4095949bee665e9e84ef29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Protection_suite/Stend/Materials/No Name.mat using Guid(a3e41b37dd4095949bee665e9e84ef29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b56d96843c7db680819f63fb08b46eb') in 0.0189772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D PREFABS/POTION E.prefab
+  artifactKey: Guid(70e0d40a040d248629b8a4648ef9e927) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D PREFABS/POTION E.prefab using Guid(70e0d40a040d248629b8a4648ef9e927) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f142c2d0aa61562c71f6114ef3ea1472') in 0.022353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Erik Assets/Barrel/Demo/Scenes/Demo_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(51df251634d522147b5b578d4d1f1f4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Barrel/Demo/Scenes/Demo_Profiles/Main Camera Profile.asset using Guid(51df251634d522147b5b578d4d1f1f4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a73759d2b409b66a2bc2a46d061c50e0') in 0.0227989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Erik Assets/Protection_suite/Base_mesh/Materials/glass.mat
+  artifactKey: Guid(bfa2ef5229eaa7c40859746165d1c789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Protection_suite/Base_mesh/Materials/glass.mat using Guid(bfa2ef5229eaa7c40859746165d1c789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '133f6e94a8c08989e4d511fd0c2ca357') in 0.0185114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion A_Automaton.controller
+  artifactKey: Guid(756d08752e41147d49b9d1fe223ae48a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion A_Automaton.controller using Guid(756d08752e41147d49b9d1fe223ae48a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30112ad8856a1fcd6b643bbf1e49bcc1') in 0.0238548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Erik Assets/Protection_suite/Textures/T_Protective suit_AlbedoTransparency.tga
+  artifactKey: Guid(f47ecea4787483544934d8b9ef7027c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Protection_suite/Textures/T_Protective suit_AlbedoTransparency.tga using Guid(f47ecea4787483544934d8b9ef7027c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c24910bf69baab0247ff92d872f151cd') in 0.0357689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Erik Assets/Garbage Heap/Model/Garbage Heap.FBX
+  artifactKey: Guid(044869bc847e5b0458ffdea332fc6c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Garbage Heap/Model/Garbage Heap.FBX using Guid(044869bc847e5b0458ffdea332fc6c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eade044f981304be0e217ee2a7d388c') in 0.0283305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D_Variation/Bottle B Glass.png
+  artifactKey: Guid(27a48b1b4d7fc4f92af4238c03a5b1da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D_Variation/Bottle B Glass.png using Guid(27a48b1b4d7fc4f92af4238c03a5b1da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5feb12e3afe40070d2776788086b05f') in 0.0214854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Interrupt.prefab
+  artifactKey: Guid(30ab0f04a7ac847e5ac282bd3168dca1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Interrupt.prefab using Guid(30ab0f04a7ac847e5ac282bd3168dca1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '965065d9dc0320055c6fdae881f278fd') in 0.0499163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Mute.prefab
+  artifactKey: Guid(064d3c2e6b38348899015f8d84637762) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Mute.prefab using Guid(064d3c2e6b38348899015f8d84637762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9f238922094d2420e3dac61e27ce820') in 0.0668818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Summon.prefab
+  artifactKey: Guid(def498310d2064d328ddf82186b83343) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Summon.prefab using Guid(def498310d2064d328ddf82186b83343) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c63fde23c64d58d352d2e05024fcd9f') in 0.051977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 145
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION D_2D Bottle Fill.png
+  artifactKey: Guid(d45c9e6dc70d34b42b49e4c0615e9568) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/2D/2D Potions/2D Sprites/POTION D_2D Bottle Fill.png using Guid(d45c9e6dc70d34b42b49e4c0615e9568) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b09e53bfefae556b935e63ff0771c43') in 0.0226478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/GPVFX_Potion A_FX.controller
+  artifactKey: Guid(4076b4b3459ec490385c4fa350bd1336) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/GPVFX_Potion A_FX.controller using Guid(4076b4b3459ec490385c4fa350bd1336) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b434a301c4058d0a00c0efefdfdf668') in 0.0170924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/GPVFX_Potion C_FX.controller
+  artifactKey: Guid(3ee0cebb090404f2daa77c7f6a55aaf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/GPVFX_Potion C_FX.controller using Guid(3ee0cebb090404f2daa77c7f6a55aaf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a0509249c486348339f5183d55224b8') in 0.0179641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Stend/scen.fbx
+  artifactKey: Guid(7b305d8cf1b518648b89c725ec026e49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Stend/scen.fbx using Guid(7b305d8cf1b518648b89c725ec026e49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32f57cad26c9eacb152af502d98dcc55') in 0.0220804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64cd917f329b1537dfa44c6e8b93e7b8') in 0.0146766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Exploded/GPVFX_Potion D_Exploded.fbx
+  artifactKey: Guid(10476cfe09ae24a3599aabad8e153a90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Exploded/GPVFX_Potion D_Exploded.fbx using Guid(10476cfe09ae24a3599aabad8e153a90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b3cf3d0ce3230a870d1ac97cf213ab0') in 0.0278704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b3f27e1c268a3f7db2192f431e154d3') in 0.018226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS 3D_Materials/3d Potion B_Fill.mat
+  artifactKey: Guid(ec15a7f470319407ba348eb79f6879fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS 3D_Materials/3d Potion B_Fill.mat using Guid(ec15a7f470319407ba348eb79f6879fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0286c070954da1dc2a4e0e228d818861') in 0.0170441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_AlbedoTransparency 1.mat
+  artifactKey: Guid(94fab408fc219bd46814e3dcc45f7ef4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_AlbedoTransparency 1.mat using Guid(94fab408fc219bd46814e3dcc45f7ef4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '797e4314dd95203c435bd544396e6ca5') in 0.022874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Mute Bubble.mat
+  artifactKey: Guid(2c1b6719024e444069f1807cd33d467d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Mute Bubble.mat using Guid(2c1b6719024e444069f1807cd33d467d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c811f282a23accc827d892ca525d8830') in 0.0174898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/Balloon/Materials/ground.mat
+  artifactKey: Guid(5c3f76a127086424699aa2f1b233523f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Materials/ground.mat using Guid(5c3f76a127086424699aa2f1b233523f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c05fd19415af319efe8e8107350c412') in 0.0184119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Prefab/sky_protectiv_suit_rig_UNITY.prefab
+  artifactKey: Guid(612c93b5086874d418ec7b3e383620d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Prefab/sky_protectiv_suit_rig_UNITY.prefab using Guid(612c93b5086874d418ec7b3e383620d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edab75c92533ace4eb1a90f9634530f3') in 0.0260857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 156
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion A_Explode.anim
+  artifactKey: Guid(3dac4c0c4b04b48cda1a7ee5ff6de9fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/Potion A_Explode.anim using Guid(3dac4c0c4b04b48cda1a7ee5ff6de9fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2be27924139a67ce53c64127e669123d') in 0.0152698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Erik Assets/Balloon/Texture/Balloon/balloon_1_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(8f20a6f7b6a05514fbf1759110680aa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Texture/Balloon/balloon_1_DefaultMaterial_MetallicSmoothness.png using Guid(8f20a6f7b6a05514fbf1759110680aa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f30853fa68c0e11bebb7a5e66c2e354') in 0.025795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Erik Assets/Garbage Heap/Prefab/Mus_4.prefab
+  artifactKey: Guid(cc055c0405de06948a80ac3431a0dfc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Garbage Heap/Prefab/Mus_4.prefab using Guid(cc055c0405de06948a80ac3431a0dfc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd57303c09158607ad3373118834331f') in 0.0450261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/TEMP/GardensC_03_1.otf
+  artifactKey: Guid(8f89924da1f984326b9d74e25a0fe5e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/TEMP/GardensC_03_1.otf using Guid(8f89924da1f984326b9d74e25a0fe5e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '105e15751bac90a925f363982c918336') in 0.0351837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Mute.mat
+  artifactKey: Guid(c16a04df833564486b94aef65c9e5af6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Mute.mat using Guid(c16a04df833564486b94aef65c9e5af6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aff61e4eb6cf3578b4bb55003cca58a9') in 0.0270024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Erik Assets/Garbage Heap/Texture/Pl0145_specular.psd
+  artifactKey: Guid(2fc4866b58e354f41932b48cb8fd4063) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Garbage Heap/Texture/Pl0145_specular.psd using Guid(2fc4866b58e354f41932b48cb8fd4063) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5de14da98807e62686bd37f45999fa77') in 0.0274744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e68fe5856747dff127d3e34c96c03a07') in 0.0498839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION B.controller
+  artifactKey: Guid(45af37cd7f11c49608bd107b9be72035) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION B.controller using Guid(45af37cd7f11c49608bd107b9be72035) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7062627115575501d1c6b1c3f7010ff0') in 0.0173413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Summon.mat
+  artifactKey: Guid(bdb7d8c001a2340cdab633bd8af24850) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Materials/GPVFX_Summon.mat using Guid(bdb7d8c001a2340cdab633bd8af24850) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5123f44e96508ad9c457bfec01a09d49') in 0.0169776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Textures/M_Sky_Protectiv_suit_Emission.tga
+  artifactKey: Guid(9c12a17cf7dcddc4daf2f5a55e483765) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Textures/M_Sky_Protectiv_suit_Emission.tga using Guid(9c12a17cf7dcddc4daf2f5a55e483765) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5b9649148bb838ae8caf97d2896783f') in 0.0270441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erik Assets/Balloon/Materials/balloon_1_yellow.mat
+  artifactKey: Guid(f95888940d554464bba40299211af091) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Materials/balloon_1_yellow.mat using Guid(f95888940d554464bba40299211af091) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cfede43ece8df9f0c792421281de3d1') in 0.0196724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION C_Exploded.controller
+  artifactKey: Guid(541db33f5409743ce9771fa43e3ab762) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/Animation Controllers/POTION C_Exploded.controller using Guid(541db33f5409743ce9771fa43e3ab762) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4acb0cb6a9ab244862daf1e545628267') in 0.0189012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Default/GPVFX_CORK.obj
+  artifactKey: Guid(cd765151bc92846f29cd0a3da80270b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/POTIONS_Default/GPVFX_CORK.obj using Guid(cd765151bc92846f29cd0a3da80270b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73c122dac8c0d09c25207708c3e6407f') in 0.0189441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Automaton.prefab
+  artifactKey: Guid(cab6e1e61524b4af9b6809fb50d5c39f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX PREFABS/GPVFX_MAGIC PREFABS/GPVFX_Automaton.prefab using Guid(cab6e1e61524b4af9b6809fb50d5c39f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b08b71193a903feb1ae9ffc74816f639') in 0.0249165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Erik Assets/Protection_suite/Materials/Standard(2sides).shader
+  artifactKey: Guid(010cae60d03cd164fab9be6ab6aa975b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Protection_suite/Materials/Standard(2sides).shader using Guid(010cae60d03cd164fab9be6ab6aa975b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80e6f2d4ca3a78e2e7e9498386450944') in 0.0158705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/GPVFX_Magic_Immobilize.png
+  artifactKey: Guid(0f1778a85f0ab4930aacff0909a3e5bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/GPVFX_Magic_Immobilize.png using Guid(0f1778a85f0ab4930aacff0909a3e5bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa6d229b40b9e8f6a6828f9efe752da8') in 0.024966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Erik Assets/Barrel/Demo/Textures/stone_tile_specular.png
+  artifactKey: Guid(74c4354682660dd4481d17aa638ede0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Barrel/Demo/Textures/stone_tile_specular.png using Guid(74c4354682660dd4481d17aa638ede0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53070d576a75257daf1336542e36bd63') in 0.0258714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic_Interrupt.png
+  artifactKey: Guid(8ab48ff56e6b644de8d0215c8898ebd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic_Interrupt.png using Guid(8ab48ff56e6b644de8d0215c8898ebd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67df59353b625383e62c865ab3d3a3a4') in 0.0229555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/GPVFX_Magic_Disrupt 1.png
+  artifactKey: Guid(b946641bf263c4913ba324e08cb2649d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/GPVFX_Magic_Disrupt 1.png using Guid(b946641bf263c4913ba324e08cb2649d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e849096d8dacf3943d4220bd6058073') in 0.0237054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Erik Assets/Balloon/Texture/Balloon/Ambient Occlusion Map from Mesh DefaultMaterial.png
+  artifactKey: Guid(66defe0c8f6c5ee4e8be4613dcb8b67b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Balloon/Texture/Balloon/Ambient Occlusion Map from Mesh DefaultMaterial.png using Guid(66defe0c8f6c5ee4e8be4613dcb8b67b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbe4e8ea3efad91445607a0c92f4a58d') in 0.0229156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_Emission 1.mat
+  artifactKey: Guid(f8438fbd47cf1d442ade144a01bb06d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/Sky_Protective_suit/Materials/M_Sky_Protectiv_suit_Emission 1.mat using Guid(f8438fbd47cf1d442ade144a01bb06d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9313bc24ad344cf55cecd0dea2cb6fd0') in 0.0223872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erik Assets/GPVFX_POTIONS PACK/3D/3D PREFABS/GPVFX_POTION E.prefab
+  artifactKey: Guid(d4368066c6a114efe9bcb98e6cb1486d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/3D/3D PREFABS/GPVFX_POTION E.prefab using Guid(d4368066c6a114efe9bcb98e6cb1486d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41b41cf0cf5a455d3e0c3758c408bc71') in 0.0239001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
