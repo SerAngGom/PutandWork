@@ -15,7 +15,7 @@ C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50769
+54971
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/angul/Desktop/Juego motores/PutandWork/Put and Work
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10116]  Target information:
+Player connection [24828]  Target information:
 
-Player connection [10116]  * "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 1574097905 [EditorId] 1574097905 [Version] 1048832 [Id] WindowsEditor(7,SAG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24828]  * "[IP] 192.168.1.170 [Port] 0 [Flags] 2 [Guid] 2965312391 [EditorId] 2965312391 [Version] 1048832 [Id] WindowsEditor(7,SAG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10116] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24828] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 8.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.37f1 (090b7797214c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
@@ -92,43 +92,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002837 seconds.
-- Loaded All Assemblies, in  0.402 seconds
+Registered in 0.003386 seconds.
+- Loaded All Assemblies, in  0.458 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.353 seconds
-Domain Reload Profiling: 754ms
-	BeginReloadAssembly (129ms)
+- Finished resetting the current domain, in  0.319 seconds
+Domain Reload Profiling: 775ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (168ms)
-		LoadAssemblies (126ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (178ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (150ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (141ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (353ms)
+	FinalizeReload (319ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
+		SetupLoadedEditorAssemblies (274ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,57 +138,149 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.763 seconds
-Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.905 seconds
+Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.66 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.854 seconds
-Domain Reload Profiling: 1613ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 1762ms
+	BeginReloadAssembly (171ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (511ms)
-		LoadAssemblies (349ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (470ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (249ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (158ms)
-			BuildScriptInfoCaches (61ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (167ms)
+			BuildScriptInfoCaches (63ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (855ms)
+	FinalizeReload (863ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (704ms)
+		SetupLoadedEditorAssemblies (701ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (362ms)
-			ProcessInitializeOnLoadMethodAttributes (216ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 239 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7023 unused Assets / (8.8 MB). Loaded Objects now: 7648.
-Memory consumption went from 172.7 MB to 163.8 MB.
-Total: 13.860700 ms (FindLiveObjects: 0.773000 ms CreateObjectMapping: 0.621400 ms MarkObjects: 8.575300 ms  DeleteObjects: 3.890000 ms)
+Unloading 7023 unused Assets / (9.3 MB). Loaded Objects now: 7648.
+Memory consumption went from 174.9 MB to 165.6 MB.
+Total: 18.411800 ms (FindLiveObjects: 1.051700 ms CreateObjectMapping: 0.996100 ms MarkObjects: 10.721000 ms  DeleteObjects: 5.640500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2182.402119 seconds.
-  path: Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic_Interrupt.png
-  artifactKey: Guid(8ab48ff56e6b644de8d0215c8898ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Erik Assets/GPVFX_POTIONS PACK/VFX/VFX_Textures/Magic_Interrupt.png using Guid(8ab48ff56e6b644de8d0215c8898ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1f29931559390898d47c5af78c7dfa5') in 0.1340898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 38255.739975 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/FIle prefab
+  artifactKey: Guid(e2eaa6cc5831ad0449cbd1f1209c91ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/FIle prefab using Guid(e2eaa6cc5831ad0449cbd1f1209c91ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '554e26cc5d233305814feeae85ab238d') in 0.0055786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023406 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/FIle prefab/VIASS_Dman.prefab
+  artifactKey: Guid(eea16ef0f58854448aaa9db9257bc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/FIle prefab/VIASS_Dman.prefab using Guid(eea16ef0f58854448aaa9db9257bc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60b39f55c83e9d8bee4bdce7710231a6') in 0.5132803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.137742 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File Material
+  artifactKey: Guid(33e907e724727c04ca9355b91055407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File Material using Guid(33e907e724727c04ca9355b91055407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df41dcc41629d02476eafdb793292488') in 0.000654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.649168 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman
+  artifactKey: Guid(03ae5b0d994e7094f9674f01a17a29cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman using Guid(03ae5b0d994e7094f9674f01a17a29cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf4f5d62e64b871b3ef22d11b614cac') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024815 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman/VIASS_Dman_dif.mat
+  artifactKey: Guid(fcfc1f26354628848bb0098d0594e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman/VIASS_Dman_dif.mat using Guid(fcfc1f26354628848bb0098d0594e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bafd6c78615aaf124a352acfcf782d67') in 0.0303375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.284123 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX
+  artifactKey: Guid(d1f4ea84a50539747b948c81fc3e81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX using Guid(d1f4ea84a50539747b948c81fc3e81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '542558d833bbd60c4d8efed074900d90') in 0.0007794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258573 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/VIASS_Dman.fbx
+  artifactKey: Guid(c2e73530bce2b8f4ea66caa6de992f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/VIASS_Dman.fbx using Guid(c2e73530bce2b8f4ea66caa6de992f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '826d8a26e954ed8f5ea66053e554cf67') in 0.073323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.613380 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Materials
+  artifactKey: Guid(db7d1255f099d5244b106ca0a592bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Materials using Guid(db7d1255f099d5244b106ca0a592bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5413ea171c937230431c64afb4b9bee0') in 0.0006732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.840364 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation
+  artifactKey: Guid(a87c70f77a721a649a0c41f416d83877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation using Guid(a87c70f77a721a649a0c41f416d83877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd0d69d3530ab95dcf52d8357d9d123') in 0.0005791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033378 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Dizzy.fbx
+  artifactKey: Guid(5c3f63b98162c9342800d2d845a2e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Dizzy.fbx using Guid(5c3f63b98162c9342800d2d845a2e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '506361dc240f6ef29734edadbae2df7f') in 0.0054451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Run.fbx
+  artifactKey: Guid(dd6e6df4cbc9d404487a32f64046edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Run.fbx using Guid(dd6e6df4cbc9d404487a32f64046edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee927cd45ee7622bf40551c0afa57f7') in 0.0049114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Runtojumpspring.fbx
+  artifactKey: Guid(4139518455ef43646a256e2ddf25508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sergio Assets/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Runtojumpspring.fbx using Guid(4139518455ef43646a256e2ddf25508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bef43bc6170d4a4b695a4ecdb8654186') in 0.004227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
